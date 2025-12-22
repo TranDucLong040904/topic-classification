@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square&logo=github&logoColor=white&labelColor=000080" alt="English"></a>
-  <a href="README.vi.md"><img src="https://img.shields.io/badge/Tiếng_Việt-red?style=flat-square&color=C90000" alt="Tiếng Việt"></a>
+  <a href="README.vi.md"><img src="https://img.shields.io/badge/Tiếng_Việt-red?style=flat-square&color=C90000" alt="Vietnamese"></a>
 </div>
 
 # 📰 Topic Classification - Vietnamese Text Classifier
@@ -21,7 +21,7 @@
 </div>
 
 ---
-
+<a id="introduction"></a>
 ## 📖 Introduction
 
 **Topic Classification** is an AI-powered web application that automatically classifies Vietnamese text into **10 predefined topics** with high accuracy (85-92%). Built using **Naive Bayes** algorithm and **TF-IDF** vectorization, the system efficiently organizes news articles, social media posts, and various text content.
@@ -37,7 +37,7 @@
 
 ## 📑 Table of Contents
 
-- [Introduction](#-introduction)
+<!-- - [Introduction](#-introduction)
 - [About the Author](#-about-the-author)
 - [Technology Stack](#-technology-stack)
 - [Key Features](#-key-features)
@@ -49,9 +49,28 @@
 - [API Documentation](#-api-documentation)
 - [Roadmap](#-roadmap)
 - [License](#-license)
-- [References](#-references)
+- [References](#-references) -->
+
+
+
+- [Introduction](#introduction)
+- [About the Author](#about-the-author)
+- [Technology Stack](#technology-stack)
+- [Key Features](#key-features)
+- [Installation & Setup](#installation-setup)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Model Details](#model-details)
+- [Demo Screenshots](#demo-screenshots)
+- [API Documentation](#api-documentation)
+- [Roadmap](#roadmap)
+- [License](#license)
+- [References](#references)
+- [Contact](#contact)
+
 
 ---
+<a id="about-the-author"></a>
 ## 👨‍💻 About the Author
 
 The project is developed and maintained by:
@@ -59,7 +78,8 @@ The project is developed and maintained by:
 | Avatar | Information | Contact |
 | :---: | :--- | :--- |
 | <img src="docs/assets/github-avatar.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Tran Duc Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/TranDucLong040904)<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
-
+---
+<a id="technology-stack"></a>
 ## 🛠️ Technology Stack
 
 <details>
@@ -92,6 +112,7 @@ The project is developed and maintained by:
 </details>
 
 ---
+<a id="key-features"></a>
 ## 🚀 Key Features
 
 ### For End Users
@@ -112,7 +133,7 @@ The project is developed and maintained by:
 * ✅ **Modular Code:** Clean separation of backend/frontend
 
 ---
-
+<a id="installation-setup"></a>
 ## ⚙️ Installation & Setup
 
 ### System Requirements
@@ -165,7 +186,7 @@ python -m http.server 8000
 ```
 
 ---
-
+<a id="usage"></a>
 ## 📖 Usage
 
 <details>
@@ -212,7 +233,7 @@ Auto-save:      Theme persists across pages and sessions
 </details>
 
 ---
-
+<a id="project-structure"></a>
 ## 📂 Project Structure
 
 <details>
@@ -257,7 +278,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="model-details"></a>
 ## 📊 Model Performance Evaluation
 
 <div align="left">
@@ -307,7 +328,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="demo-screenshots"></a>
 ## 🖼️ Demo Screenshots
 
 <details>
@@ -369,7 +390,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="api-documentation"></a>
 ## 📡 API Documentation
 
 <details>
@@ -483,7 +504,7 @@ fetch('http://localhost:5000/predict', {
 </details>
 
 ---
-
+<a id="roadmap"></a>
 ## 🗺️ Roadmap
 
 <details>
@@ -517,7 +538,7 @@ fetch('http://localhost:5000/predict', {
 </details>
 
 ---
-
+<a id="license"></a>
 ## 📜 License
 
 ```
@@ -539,12 +560,8 @@ All intellectual property rights belong to the author.
 ```
 
 ---
-
+<a id="references"></a>
 ## 🔗 References
-
-
-
-
 
 ### Official Documentation
 - [Flask Documentation](https://flask.palletsprojects.com/)
@@ -559,7 +576,7 @@ All intellectual property rights belong to the author.
 
 
 ---
-
+<a id="contact"></a>
 ## ☎️ Contact
 - **GitHub:** [Tran Duc Long](https://github.com/TranDucLong040904)
 - **Email:** 22010139@st.phenikaa-uni.edu.vn

@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square&logo=github&logoColor=white&labelColor=000080" alt="English"></a>
+  <a href="README.md"><img src="https://img.shields.io/badge/English-blue?style=flat-square&logo=github&logoColor=white&labelColor=000080" alt="Tiếng Anh"></a>
   <a href="README.vi.md"><img src="https://img.shields.io/badge/Tiếng_Việt-red?style=flat-square&color=C90000" alt="Tiếng Việt"></a>
 </div>
 
@@ -36,23 +36,6 @@
 ---
 
 ## 📑 Mục Lục
-
-<!-- - [Giới Thiệu](#-giới-thiệu)
-- [Tác Giả](#-tác-giả)
-- [Công Nghệ Sử Dụng](#-công-nghệ-sử-dụng)
-- [Tính Năng Chính](#-tính-năng-chính)
-- [Cài Đặt & Thiết Lập](#-cài-đặt--thiết-lập)
-- [Hướng Dẫn Sử Dụng](#-hướng-dẫn-sử-dụng)
-- [Cấu Trúc Dự Án](#-cấu-trúc-dự-án)
-- [Chi Tiết Mô Hình](#-chi-tiết-mô-hình)
-- [Ảnh Demo](#-ảnh-demo)
-- [Tài Liệu API](#-tài-liệu-api)
-- [Lộ Trình Phát Triển](#-lộ-trình-phát-triển)
-- [Giấy Phép](#-giấy-phép)
-- [Tham Khảo](#-tham-khảo) -->
-
-
-
 - [Giới Thiệu](#gioi-thieu)
 - [Tác Giả](#tac-gia)
 - [Công Nghệ Sử Dụng](#cong-nghe-su-dung)
@@ -68,8 +51,6 @@
 - [Tham Khảo](#tham-khao)
 - [Liên Hệ](#lien-he)
 
-
-
 ---
 <a id="tac-gia"></a>
 ## 👨‍💻 Tác Giả
@@ -79,7 +60,7 @@ Dự án được phát triển và duy trì bởi:
 | Avatar | Thông tin | Liên hệ |
 | :---: | :--- | :--- |
 | <img src="docs/assets/github-avatar.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Trần Đức Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)]([https://github.com/TranDucLong040904](https://github.com/TranDucLong040904))<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
-
+---
 <a id="cong-nghe-su-dung"></a>
 ## 🛠️ Công Nghệ Sử Dụng
 
