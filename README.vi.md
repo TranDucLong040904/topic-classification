@@ -21,7 +21,7 @@
 </div>
 
 ---
-
+<a id="gioi-thieu"></a>
 ## 📖 Giới Thiệu
 
 **Topic Classification** là một ứng dụng web tích hợp trí tuệ nhân tạo (AI), có khả năng tự động phân loại văn bản tiếng Việt thành **10 chủ đề định sẵn** với độ chính xác cao (85-92%). Được xây dựng dựa trên thuật toán **Naive Bayes** và kỹ thuật vector hóa **TF-IDF**, hệ thống giúp sắp xếp hiệu quả các bài báo tin tức, bài đăng mạng xã hội và các nội dung văn bản khác.
@@ -52,23 +52,26 @@
 - [Tham Khảo](#-tham-khảo) -->
 
 
-- [Giới Thiệu](#giới-thiệu)
-- [Tác Giả](#tác-giả)
-- [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
-- [Tính Năng Chính](#tính-năng-chính)
-- [Cài Đặt & Thiết Lập](#cài-đặt--thiết-lập)
-- [Hướng Dẫn Sử Dụng](#hướng-dẫn-sử-dụng)
-- [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
-- [Đánh Giá Hiệu Suất Mô Hình](#đánh-giá-hiệu-suất-mô-hình)
-- [Ảnh Demo](#ảnh-demo)
-- [Tài Liệu API](#tài-liệu-api)
-- [Lộ Trình Phát Triển](#lộ-trình-phát-triển)
-- [Giấy Phép](#giấy-phép)
-- [Tham Khảo](#tham-khảo)
-- [Liên Hệ](#liên-hệ)
+
+- [Giới Thiệu](#gioi-thieu)
+- [Tác Giả](#tac-gia)
+- [Công Nghệ Sử Dụng](#cong-nghe-su-dung)
+- [Tính Năng Chính](#tinh-nang-chinh)
+- [Cài Đặt & Thiết Lập](#cai-dat)
+- [Hướng Dẫn Sử Dụng](#huong-dan-su-dung)
+- [Cấu Trúc Dự Án](#cau-truc-du-an)
+- [Đánh Giá Hiệu Suất](#danh-gia-hieu-suat)
+- [Ảnh Demo](#demo)
+- [Tài Liệu API](#tai-lieu)
+- [Lộ Trình Phát Triển](#lo-trinh-phat-trien)
+- [Giấy Phép](#giay-phep)
+- [Tham Khảo](#tham-khao)
+- [Liên Hệ](#lien-he)
+
 
 
 ---
+<a id="tac-gia"></a>
 ## 👨‍💻 Tác Giả
 
 Dự án được phát triển và duy trì bởi:
@@ -77,6 +80,7 @@ Dự án được phát triển và duy trì bởi:
 | :---: | :--- | :--- |
 | <img src="docs/assets/github-avatar.png" width="80" height="80" style="border-radius:50%; object-fit:cover;"/> | **Trần Đức Long** | [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)]([https://github.com/TranDucLong040904](https://github.com/TranDucLong040904))<br>[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:22010139@st.phenikaa-uni.edu.vn) |
 
+<a id="cong-nghe-su-dung"></a>
 ## 🛠️ Công Nghệ Sử Dụng
 
 <details>
@@ -109,6 +113,7 @@ Dự án được phát triển và duy trì bởi:
 </details>
 
 ---
+<a id="tinh-nang-chinh"></a>
 ## 🚀 Tính Năng Chính
 
 ### Dành Cho Người Dùng
@@ -128,7 +133,7 @@ Dự án được phát triển và duy trì bởi:
 * ✅ **Code Module Hóa:** Phân tách rõ ràng giữa Backend và Frontend.
 
 ---
-
+<a id="cai-dat"></a>
 ## ⚙️ Cài Đặt & Thiết Lập
 
 ### Yêu Cầu Hệ Thống
@@ -181,7 +186,7 @@ python -m http.server 8000
 ```
 
 ---
-
+<a id="huong-dan-su-dung"></a>
 ## 📖 Hướng Dẫn Sử Dụng
 
 <details>
@@ -228,7 +233,7 @@ Tự động lưu:    Chế độ đã chọn sẽ được giữ nguyên khi b�
 </details>
 
 ---
-
+<a id="cau-truc-du-an"></a>
 ## 📂 Cấu Trúc Dự Án
 
 <details>
@@ -273,7 +278,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="danh-gia-hieu-suat"></a>
 ## 📊 Đánh Giá Hiệu Suất Mô Hình
 
 <div align="left">
@@ -323,7 +328,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="demo"></a>
 ## 🖼️ Ảnh Demo
 
 <details>
@@ -385,7 +390,7 @@ Topic Classification
 </details>
 
 ---
-
+<a id="tai-lieu"></a>
 ## 📡 Tài Liệu API
 
 <details>
@@ -499,7 +504,7 @@ fetch('http://localhost:5000/predict', {
 </details>
 
 ---
-
+<a id="lo-trinh-phat-trien"></a>
 ## 🗺️ Lộ Trình Phát Triển
 
 <details>
@@ -533,7 +538,7 @@ fetch('http://localhost:5000/predict', {
 </details>
 
 ---
-
+<a id="giay-phep"></a>
 ## 📜 Giấy Phép
 
 ```
@@ -555,7 +560,7 @@ Mọi quyền sở hữu trí tuệ thuộc về tác giả.
 ```
 
 ---
-
+<a id="tham-khao"></a>
 ## 🔗 Tham Khảo
 
 ### Tài Liệu Chính Thức
@@ -571,7 +576,7 @@ Mọi quyền sở hữu trí tuệ thuộc về tác giả.
 
 
 ---
-
+<a id="lien-he"></a>
 ## ☎️ Liên Hệ
 - **GitHub:** [Trần Đức Long](https://github.com/TranDucLong040904)
 - **Email:** 22010139@st.phenikaa-uni.edu.vn
@@ -586,7 +591,7 @@ Mọi quyền sở hữu trí tuệ thuộc về tác giả.
 
 Được thực hiện với ❤️ bởi **Trần Đức Long**
 
-Bản quyền © 2025 • [Giấy Phép MIT](#-giấy-phép)
+Bản quyền © 2025 • [Giấy Phép MIT](#giay-phep)
 
 **[⬆ Về đầu trang](#-topic-classification---phân-loại-văn-bản-tiếng-việt)**
 
