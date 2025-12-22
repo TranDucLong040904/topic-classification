@@ -37,7 +37,7 @@
 
 ## 📑 Mục Lục
 
-- [Giới Thiệu](#-giới-thiệu)
+<!-- - [Giới Thiệu](#-giới-thiệu)
 - [Tác Giả](#-tác-giả)
 - [Công Nghệ Sử Dụng](#-công-nghệ-sử-dụng)
 - [Tính Năng Chính](#-tính-năng-chính)
@@ -49,7 +49,24 @@
 - [Tài Liệu API](#-tài-liệu-api)
 - [Lộ Trình Phát Triển](#-lộ-trình-phát-triển)
 - [Giấy Phép](#-giấy-phép)
-- [Tham Khảo](#-tham-khảo)
+- [Tham Khảo](#-tham-khảo) -->
+
+
+- [Giới Thiệu](#giới-thiệu)
+- [Tác Giả](#tác-giả)
+- [Công Nghệ Sử Dụng](#công-nghệ-sử-dụng)
+- [Tính Năng Chính](#tính-năng-chính)
+- [Cài Đặt & Thiết Lập](#cài-đặt--thiết-lập)
+- [Hướng Dẫn Sử Dụng](#hướng-dẫn-sử-dụng)
+- [Cấu Trúc Dự Án](#cấu-trúc-dự-án)
+- [Đánh Giá Hiệu Suất Mô Hình](#đánh-giá-hiệu-suất-mô-hình)
+- [Ảnh Demo](#ảnh-demo)
+- [Tài Liệu API](#tài-liệu-api)
+- [Lộ Trình Phát Triển](#lộ-trình-phát-triển)
+- [Giấy Phép](#giấy-phép)
+- [Tham Khảo](#tham-khảo)
+- [Liên Hệ](#liên-hệ)
+
 
 ---
 ## 👨‍💻 Tác Giả
