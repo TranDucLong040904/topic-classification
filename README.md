@@ -7,6 +7,8 @@
 
 ![Banner](docs/assets/banner.png)
 
+🔗 **Live Site:** https://leotran-topic-classification.netlify.app/
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -32,6 +34,10 @@
 - 💾 **History:** Save and review past classifications
 - 🌓 **Dark Mode:** Modern UI with light/dark theme
 - 📱 **Responsive:** Optimized for desktop, tablet, and mobile
+
+**Live Demo:**
+- Frontend (Netlify): https://leotran-topic-classification.netlify.app/
+- Backend (Render): https://leotran-topic-classification.onrender.com (auto-sleep on free tier, may take ~30-60s to wake)
 
 ---
 
@@ -163,26 +169,23 @@ source venv/bin/activate
 cd backend
 pip install -r requirements.txt
 
-# 5. Run backend API
+# 5. Run backend API (local dev)
 python app.py
-# ✅ Backend runs at:  http://localhost:5000
+# ✅ Backend runs at:  http://localhost:5000 (prod: https://leotran-topic-classification.onrender.com)
 ```
 
 ### Launch Frontend
 
-**Option 1: Direct file access**
-```bash
-cd ../frontend
-start pages/home.html      # Windows
-open pages/home.html       # macOS
-xdg-open pages/home.html   # Linux
+**Option 1: Open built site (recommended)**
+```text
+https://leotran-topic-classification.netlify.app/
 ```
 
-**Option 2: Local server**
+**Option 2: Local server for frontend**
 ```bash
 cd frontend
 python -m http.server 8000
-# ✅ Visit: http://localhost:8000/pages/home.html
+# ✅ Visit: http://localhost:8000/index.html (Classify at /pages/classify.html, History at /pages/history.html)
 ```
 
 ---
@@ -269,8 +272,8 @@ Topic Classification
 │   ├── 📁 pages
 │   │   ├── 🌐 classify.html
 │   │   ├── 🌐 history.html
-│   │   └── 🌐 home.html
 │   └── 📄 config.js
+│   └── 🌐 index.html
 ├── ⚙️ .gitignore
 └── 📝 README.md
 ```
@@ -400,7 +403,8 @@ Topic Classification
 
 ### Base URL
 ```
-http://localhost:5000
+Production: https://leotran-topic-classification.onrender.com
+Local:      http://localhost:5000
 ```
 
 ### 1. Health Check

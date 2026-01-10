@@ -7,6 +7,8 @@
 
 ![Banner](docs/assets/banner.png)
 
+🔗 **Truy cập nhanh:** https://leotran-topic-classification.netlify.app/
+
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
@@ -32,6 +34,10 @@
 - 💾 **Lịch Sử:** Lưu và xem lại các kết quả phân loại trước đây.
 - 🌓 **Chế Độ Tối:** Giao diện hiện đại với tùy chọn chủ đề Sáng/Tối (Dark Mode).
 - 📱 **Tương Thích:** Tối ưu hóa hiển thị cho máy tính, máy tính bảng và điện thoại di động.
+
+**Demo trực tuyến:**
+- Frontend (Netlify): https://leotran-topic-classification.netlify.app/
+- Backend (Render): https://leotran-topic-classification.onrender.com (free tier có thể ngủ, cần 30-60s để thức)
 
 ---
 
@@ -144,26 +150,23 @@ source venv/bin/activate
 cd backend
 pip install -r requirements.txt
 
-# 5. Chạy Backend API
+# 5. Chạy Backend API (local dev)
 python app.py
-# ✅ Backend sẽ chạy tại:  http://localhost:5000
+# ✅ Backend local: http://localhost:5000 (prod: https://leotran-topic-classification.onrender.com)
 ```
 
 ### Chạy Giao Diện (Frontend)
 
-**Cách 1: Mở file trực tiếp**
-```bash
-cd ../frontend
-start pages/home.html      # Windows
-open pages/home.html       # macOS
-xdg-open pages/home.html   # Linux
+**Cách 1: Mở site đã build (khuyên dùng)**
+```text
+https://leotran-topic-classification.netlify.app/
 ```
 
-**Cách 2: Dùng Local Server (Khuyên dùng)**
+**Cách 2: Dùng Local Server**
 ```bash
 cd frontend
 python -m http.server 8000
-# ✅ Truy cập: http://localhost:8000/pages/home.html
+# ✅ Truy cập: http://localhost:8000/index.html (Phân loại: /pages/classify.html, Lịch sử: /pages/history.html)
 ```
 
 ---
@@ -250,8 +253,8 @@ Topic Classification
 │   ├── 📁 pages
 │   │   ├── 🌐 classify.html
 │   │   ├── 🌐 history.html
-│   │   └── 🌐 home.html
 │   └── 📄 config.js
+│   └── 🌐 index.html
 ├── ⚙️ .gitignore
 └── 📝 README.md
 ```
@@ -381,7 +384,8 @@ Topic Classification
 
 ### Đường dẫn gốc (Base URL)
 ```
-http://localhost:5000
+Prod:  https://leotran-topic-classification.onrender.com
+Local: http://localhost:5000
 ```
 
 ### 1. Kiểm tra Trạng thái (Health Check)
