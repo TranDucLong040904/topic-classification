@@ -7,7 +7,6 @@
 
 ![Banner](docs/assets/banner.png)
 
-🔗 **Live Site:** https://leotran-topic-classification.netlify.app/
 
 <div align="center">
 

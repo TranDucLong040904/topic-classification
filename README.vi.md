@@ -7,8 +7,6 @@
 
 ![Banner](docs/assets/banner.png)
 
-🔗 **Truy cập nhanh:** https://leotran-topic-classification.netlify.app/
-
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python&logoColor=white)
