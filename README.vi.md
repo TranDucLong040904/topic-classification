@@ -35,6 +35,7 @@
 
 **Demo trực tuyến:**
 - Frontend (Netlify): https://leotran-topic-classification.netlify.app/
+- Frontend (Vercel): https://topic-classification.vercel.app/pages/classify.html
 - Backend (Render): https://leotran-topic-classification.onrender.com (free tier có thể ngủ, cần 30-60s để thức)
 
 ---

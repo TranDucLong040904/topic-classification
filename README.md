@@ -36,6 +36,7 @@
 
 **Live Demo:**
 - Frontend (Netlify): https://leotran-topic-classification.netlify.app/
+- Frontend (Vercel): https://topic-classification.vercel.app/pages/classify.html
 - Backend (Render): https://leotran-topic-classification.onrender.com (auto-sleep on free tier, may take ~30-60s to wake)
 
 ---
